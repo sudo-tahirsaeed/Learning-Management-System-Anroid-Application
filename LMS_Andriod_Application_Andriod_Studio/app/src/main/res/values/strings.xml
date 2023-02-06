@@ -1,0 +1,110 @@
+<resources>
+    <string name="app_name"></string>
+    <string-array name="issues">
+        <item>Medical Issue </item>
+        <item> Prolonged Periods </item>
+        <item> Severe Headaches </item>
+        <item> Anxiety </item>
+        <item> Depression </item>
+        <item> Other </item>
+
+    </string-array>
+
+    <string-array name="courses">
+        <item>Course Name </item>
+        <item> BE Computer Science </item>
+        <item> BE Mechanical Engineering</item>
+        <item> BE Electrical Engineering </item>
+        <item> Business Administration </item>
+        <item> BS Architecture </item>
+
+    </string-array>
+
+    <string-array name="CScourses">
+        <item>Computer Science Courses </item>
+        <item> Programming Fundamentals </item>
+        <item> Database</item>
+        <item> Operating Systems </item>
+        <item> Introduction To Computer Technology </item>
+        <item> Data Structures </item>
+        <item> Artificial Intelligence </item>
+        <item> Cyber Security </item>
+        <item> Object Oriented Programming</item>
+        <item> Networking </item>
+        <item> Information Technology</item>
+        <item> Information Security</item>
+    </string-array>
+
+    <string-array name="MECHcourses">
+        <item>Mechanical Engineering Courses </item>
+        <item> Thermodynamics </item>
+        <item> System Modelling </item>
+        <item> Structural Materials </item>
+        <item> Applied Physics </item>
+        <item> Calculus </item>
+        <item> Intro To Space Science </item>
+        <item> Engineering Mathematics </item>
+        <item> Engineering Chemistry</item>
+        <item> Machine Design</item>
+        <item> Mechanical Vibrations</item>
+        <item> Business and Entrepreneurship</item>
+    </string-array>
+
+    <string-array name="Eleccourses">
+        <item>Electrical Engineering Courses </item>
+        <item> Calculus </item>
+        <item> Engineering Drawing </item>
+        <item> Intro to Information Technology </item>
+        <item> Linear Circuit Analysis </item>
+        <item> Workshop Practice </item>
+        <item> Differential Equations </item>
+        <item> Programming Language </item>
+        <item> Digital Logic Design</item>
+        <item> Electromagnetic Field Theory</item>
+        <item> Engineering Management</item>
+        <item> Business and Entrepreneurship</item>
+    </string-array>
+
+    <string-array name="BBAcourses">
+        <item>BBA Courses </item>
+        <item> IT in Business </item>
+        <item> Fundamentals of Accounting </item>
+        <item> Business Math </item>
+        <item> Financial Accounting	</item>
+        <item> Organizational Behaviour	</item>
+        <item> Consumer Behaviour </item>
+        <item>  Business Finance </item>
+        <item> Macroeconomics</item>
+        <item> Operations Management</item>
+        <item> Entrepreneurship</item>
+        <item> Business Ethics</item>
+    </string-array>
+
+    <string-array name="Architectcourses">
+        <item>Architecture Courses </item>
+        <item> History and Theory of Art and Culture </item>
+        <item> Foundation Studio</item>
+        <item> Architectural Studio</item>
+        <item> Material and Construction</item>
+        <item> Structures for Architects</item>
+        <item> Environment and Energy</item>
+        <item>  Digital Tools for Architects</item>
+        <item> Sustainable Design</item>
+        <item> Thesis Design</item>
+        <item> Professional Practice</item>
+        <item> Cultural Heritage</item>
+    </string-array>
+
+
+    <string name="title_activity_dashboard_s_t_d">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="email">Email:</string>
+    <string name="syed_huzaifa_bukhari">Syed Huzaifa Bukhari</string>
+    <string name="sp20_bse_089">SP20-BSE-089</string>
+    <string name="semester">Semester:</string>
+    <string name="_5th">5th</string>
+    <string name="huzbuk_gmail_com">huzbuk@gmail.com</string>
+
+
+</resources>

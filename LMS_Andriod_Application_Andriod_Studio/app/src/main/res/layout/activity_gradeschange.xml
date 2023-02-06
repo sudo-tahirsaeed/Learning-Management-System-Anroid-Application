@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CE0288D1"
+    tools:context=".gradeschange">
+
+    <TextView
+        android:id="@+id/titlecg"
+        android:layout_width="182dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="16dp"
+        android:background="#FBC02D"
+        android:fontFamily="sans-serif-condensed"
+        android:paddingTop="8dp"
+        android:text="EDIT GRADES"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout2"
+        android:layout_width="330dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="108dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titlecg">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/regnocg"
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:hint="Enter Student Reg No"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <SeekBar
+        android:id="@+id/cgsb"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="281dp"
+        android:layout_height="45dp"
+        android:background="#FAF9F8"
+        android:max="4"
+        android:progress="2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout2"
+        app:layout_constraintVertical_bias="0.279" />
+
+    <TextView
+        android:id="@+id/gradegc"
+        android:layout_width="85dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="63dp"
+        android:background="#8E2402"
+        android:paddingTop="5dp"
+        android:text="B"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/cgsb"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttongc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FBC02D"
+        android:text="Confirm"
+        android:textColor="#070000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cgsb"
+        app:layout_constraintVertical_bias="0.137" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
